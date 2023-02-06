@@ -1,0 +1,7 @@
+AuthName "chumsy.apollow.com statistics"
+AuthType Basic
+AuthUserFile /home/apollow/domains/chumsy.apollow.com/.stats-htpasswd
+require valid-user
+<Files .stats-htpasswd>
+deny from all
+</Files>

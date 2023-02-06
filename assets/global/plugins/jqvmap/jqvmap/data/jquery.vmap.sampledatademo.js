@@ -1,0 +1,1 @@
+var sample_data = {"af":"16.63"};
